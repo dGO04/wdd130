@@ -1,0 +1,44 @@
+      body {
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          text-align: center;
+      }
+
+      header,
+      footer {
+          font-size: xx-large;
+          color: white;
+          margin: 20px;
+          background-color: #333333;
+          padding: 10px;
+      }
+
+      footer {
+          font-size: medium;
+      }
+
+      main {
+          width: 500px;
+          margin: 0 auto;
+      }
+
+      img {
+          width: 300px;
+          box-shadow: 0 0 30px #333333;
+      }
+
+      section {
+          padding: 5px 15px 15px 15px;
+          text-align: start;
+          width: 300px;
+          margin: 20px 20px 20px 90px;
+          background-color: lightgray;
+      }
+
+      section p {
+          margin: 10px;
+      }
+
+      h2 {
+          padding: 5px;
+          border-bottom: 1px solid darkslategray;
+      }
