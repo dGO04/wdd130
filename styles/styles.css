@@ -1,7 +1,27 @@
+/* '* {}': universally apply to all items in the html file */
+
+/* header {
+
+    position: fixed;
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+} */
+
+img {
+
+    width: 100%;
+    height: auto;
+}
+
 main {
     max-width: 800px;
 
 }
+
+/* This is a comment in CSS */
 
 aside {
     width: 20rem;
