@@ -6,7 +6,7 @@
 
 :root {
 
-    --primary-color: lightblue;
+    /* --primary-color: lightblue; */
     --secondary-color: navy;
     --heading-color: white;
     --text-color: black;
@@ -54,16 +54,16 @@ article {
     height: auto;
 }
 
-.hero article img {
-    float: right;
-    width: 125px;
-}
-
-article {
+.hero article {
     position: absolute;
     top: 250px;
     background-color: var(--secondary-color);
     opacity: 0.7;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
 }
 
 article p {
