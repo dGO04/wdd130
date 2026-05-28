@@ -29,9 +29,15 @@ img {
     height: auto;
 }
 
-main {
-    max-width: 800px;
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
+main {
+
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
 }
 
 /* This is a comment in CSS */
@@ -39,6 +45,8 @@ main {
 aside {
     width: 20em;
     text-align: center;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
 }
 
 aside img {
@@ -50,6 +58,11 @@ aside img {
 nav {
     background-color: var(--main-color);
     padding: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
 
 nav a {
@@ -59,6 +72,9 @@ nav a {
 }
 
 h1 {
+    padding-bottom: 10px;
+    margin: 10px;
+    border-bottom: 1px dotted black;
     color: var(--main-color);
 }
 
@@ -74,6 +90,13 @@ main img {
 
 p {
     margin: 1rem;
+}
+
+header,
+footer,
+.grid {
+    max-width: 840px;
+    margin: 0 auto
 }
 
 footer {
