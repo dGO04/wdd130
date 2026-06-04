@@ -1,0 +1,71 @@
+label,
+input,
+textarea,
+select,
+button {
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+header {
+    text-align: center;
+}
+
+h1,
+legend {
+    color: navy;
+}
+
+form {
+    margin: 0 auto;
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 25px;
+    width: 50%;
+}
+
+.contactinfo {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    position: relative;
+    text-align: end;
+}
+
+.contactinfo input {
+    width: 70%;
+}
+
+legend {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: lightgray;
+}
+
+.textblock {
+    display: block;
+    width: 100%;
+}
+
+button {
+
+    background-color: navy;
+    color: white;
+    border-radius: 7px;
+    padding: 7px 5px;
+}
+
+.questions {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    position: relative;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 0px;
+}
