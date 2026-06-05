@@ -54,118 +54,91 @@ header ul {
 header,
 main,
 footer {
-    width: 840px;
+    width: 890px;
     margin: 0 auto;
 }
 
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--heading-color);
+    color: var(--secondary-color);
 }
 
-nav,
-p,
-section,
-article {
-    margin: 16px;
-    padding: 8px;
+section {
+    margin-top: 20px;
+    text-align: center;
+
 }
 
-.hero {
-    margin-top: 10px;
-    position: relative;
+.section2 {
+    flex-flow: row nowrap;
+    display: flex;
 }
 
-.hero img {
+.userinfo {
+    margin-right: 95px;
+}
+
+.section2 img {
+    height: 440px;
+}
+
+.section2 form {
+    display: grid;
+    grid-template-rows: 20px 20px 1fr 1fr 50px 1fr;
+    text-align: start;
+    margin-left: 20px;
+}
+
+.msgpurpose {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 10px 0px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.multiopt {
+    margin-left: 2px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.section2 textarea {
     display: block;
     width: 100%;
-    height: 300px;
-    opacity: 0.7;
 }
 
-.hero article {
-    position: absolute;
-    top: 80px;
-    background-color: var(--secondary-color);
-    opacity: 0.7;
-    height: 55%;
-}
-
-.hero article img {
-    float: right;
-    padding: 5px;
-    width: auto;
-    height: 90%;
-}
-
-.try {
-
-    background-color: navy;
-}
-
-article p {
-    color: white;
-}
-
-h1 {
-    position: absolute;
-    top: 20px;
-    padding: 16px;
-    color: var(--secondary-color);
-    text-align: center;
+.section2 button {
+    display: block;
     width: 100%;
-
+    max-height: 30px;
+    padding: 7px 0px;
 }
 
-.history {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 30px 1fr;
-    display: grid;
-    margin: 0px;
+.section3 {
+    border: 1px solid black;
+    margin: 20px 0px 10px;
+    padding: 20px;
+    background-color: lightgray;
 }
 
-.history h2 {
-    grid-column: 1 / 4;
+.employees {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-.history div img {
-
-    width: 100px;
+.employees img {
     height: 100px;
+    width: auto;
 }
 
-.history div {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-}
-
-h2 {
-    /* background-color: var(--secondary-color); */
-    color: black;
-    padding: 15px;
-    text-align: center;
-}
-
-.adventure {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 0px;
-}
-
-.adventure div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.adventure figure {
-    margin: 20px;
-}
-
-.adventure img {
-    width: 100%;
+nav {
+    margin: 16px;
+    padding: 8px;
 }
 
 .socialmedia a {
