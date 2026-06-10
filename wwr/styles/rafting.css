@@ -158,6 +158,10 @@ article {
     width: auto;
 }
 
+.employees div {
+    margin: 20px 0px;
+}
+
 .hero {
     margin-top: 10px;
     position: relative;
