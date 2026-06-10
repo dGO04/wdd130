@@ -158,8 +158,12 @@ article {
     width: auto;
 }
 
-.employees div {
-    margin: 20px 0px;
+.topcaption {
+    margin-top: 20px;
+}
+
+.bottomcaption {
+    margin-bottom: 20px;
 }
 
 .hero {
