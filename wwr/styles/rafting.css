@@ -158,12 +158,14 @@ article {
     width: auto;
 }
 
-.topcaption {
-    margin-top: 20px;
+.employees p {
+    margin: 0px;
+    padding: 0px;
 }
 
-.bottomcaption {
-    margin-bottom: 20px;
+.employees figcaption {
+    margin: 20px 0px;
+
 }
 
 .hero {
