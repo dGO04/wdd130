@@ -282,6 +282,64 @@ footer a {
     color: var(--secondary-color);
 }
 
+.offeringstable {
+    width: 100%;
+    height: auto;
+    padding: 20px 30px;
+}
+
+.offeringstable h3 {
+    font-size: 60px;
+    padding: 20px;
+    text-align: center;
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+.offeringstable table {
+    margin: 20px 0px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.offeringstable th {
+    color: var(--heading-color);
+    background-color: var(--secondary-color);
+    padding: 10px;
+    font-size: 22px;
+    border: 1px solid black;
+}
+
+.offeringstable td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.contactus {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    background-color: var(--secondary-color);
+}
+
+.contactus h4 {
+    display: inline;
+    color: var(--heading-color);
+    font-family: var(--heading-font);
+    font-size: 28px;
+}
+
+.contactus button {
+    padding: 10px;
+    width: 130px;
+    font-size: 18px;
+    background-color: var(--primary-color);
+}
+
 /*TRIPS PAGE*/
 
 section,
