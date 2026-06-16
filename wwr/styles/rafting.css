@@ -162,6 +162,7 @@ footer a {
 .newsletter {
     background-color: var(--secondary-color);
     padding: 50px;
+    color: white;
     text-align: start;
     width: 50%;
     margin: 20px;
